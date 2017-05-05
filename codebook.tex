@@ -9,6 +9,7 @@
 \usepackage[compact]{titlesec}
 \usepackage{enumerate}
 \usepackage[bookmarks,hidelinks]{hyperref}
+\usepackage{graphicx}
 
 %\topmargin=0pt
 \headsep=5pt
@@ -111,7 +112,8 @@ int main() {
 
 \newpage
 \section{Math}
-\subsection{Euler's phi function O(n)}
+\subsection{Euler's phi function}
+
 \begin{enumerate}[1.]
 \item $gcd(x,y)=d \Rightarrow \phi(xy) = \frac{\phi(x) \phi(y)}{\phi(d)}$
 \item $p\; is\; prime \Rightarrow \phi(p^k) = p^{k-1} \phi(p)$
@@ -119,6 +121,9 @@ int main() {
 \item $n = p_{1}^{k_1} p_{2}^{k_2} \cdots p_{m}^{k_m}\\
 \Rightarrow \phi(n) = p_{1}^{k_1-1}\phi(p_1)\; p_{2}^{k_2-1}\phi(p_2) \cdots p_{m}^{k_m-1}\phi(p_m)$
 \end{enumerate}
+
+
+\includegraphics[width=7cm]{圖勒.jpg}
 
 \section*{The End}
 \end{document}
